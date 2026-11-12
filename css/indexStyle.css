@@ -110,6 +110,18 @@ h3 {
     object-fit: cover;
     max-width: 100%;
     height: auto;
+    /* Estilo base da foto de perfil */
+.foto-perfil {
+    border-radius: 10px; /* Se já tiver borda arredondada, ajuste aqui */
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Deixa a animação suave */
+}
+
+/* Efeito ao passar o mouse (Hover) */
+.foto-perfil:hover {
+    transform: scale(1.05); /* Aumenta levemente a foto (5%) */
+    box-shadow: 0 8px 20px rgba(59, 89, 120, 0.2); /* Adiciona uma sombra suave usando o azul escuro */
+}
 }
 
 .perfil-texto {
