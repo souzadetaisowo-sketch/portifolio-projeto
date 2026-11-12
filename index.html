@@ -3,18 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página principal</title>
+    <title>Taisa - Portfólio Pessoal</title>
+    <link rel="stylesheet" href="css/indexStyle.css">
 </head>
 <body>
-    <h1>Sobre mim:</h1>
-        <h2>Meu nome é Taisa.</h2>
-        <h3>tenho 19 anos.</h3>
-        <img src="https://media.discordapp.net/attachments/1062100240804630529/1570448778115293204/0918FA8F-AB4F-4472-95EE-C59E4490E097.png?ex=6af721e6&is=6af5d066&hm=fba8346cb8ee4812ed2102790d079d64c4dca0b0bf9f34c61dbe39424ba2d7f1&=&format=webp&quality=lossless&width=688&height=1024" alt="150x200" width="150" height="200">
-        <h3>Estou cursando o curso de Desenvolvimento Web, pelo Senai de Areias</h3>
-        <h4>Espero poder contribuir com minha experiência e conhecimento para a equipe. 
-            possuo curso de inglês, e estou sempre em busca de aprender mais sobre desenvolvimento web.
-        </h4>
+    <header>
+        <h1>Portfólio de Taisa</h1>
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html" class="ativo">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        
+    <main>
+        <section>
+            <h2>Sobre mim</h2>
+            <div class="perfil-container">
+                <img src="https://media.discordapp.net/attachments/1062100240804630529/1570448778115293204/0918FA8F-AB4F-4472-95EE-C59E4490E097.png?ex=6af721e6&is=6af5d066&hm=fba8346cb8ee4812ed2102790d079d64c4dca0b0bf9f34c61dbe39424ba2d7f1&=&format=webp&quality=lossless&width=688&height=1024" alt="Foto de perfil de Taisa" width="150" height="200" class="foto-perfil">
+                <div class="perfil-texto">
+                    <h3>Olá! Meu nome é Taisa.</h3>
+                    <p>Tenho 19 anos e estou cursando <strong>Desenvolvimento Web</strong> pelo Senai de Areias.</p>
+                    <p>Possuo curso de inglês e estou sempre em busca de aprender mais sobre desenvolvimento web. Espero poder contribuir com minha experiência, dedicação e conhecimento para a equipe.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Habilidades e Formação</h2>
+            <ul class="lista-habilidades">
+                <li>Desenvolvimento Web Front-end (HTML5 e CSS3)</li>
+                <li>Criação de layouts responsivos para computador e celular</li>
+                <li>Inglês intermediário/avançado</li>
+                <li>Trabalho em equipe e aprendizado contínuo</li>
+            </ul>
+            <p>Conheça mais sobre a instituição onde estudo:</p>
+            <a href="https://www.pe.senai.br/" target="_blank" rel="noopener noreferrer" class="link-externo">Visitar site do SENAI Pernambuco</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Taisa - Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
